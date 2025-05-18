@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    a{
+        @apply inline-block
+    }
+    h2{
+        @apply text-5xl leading-[64px] font-semibold
+    }
+    h3{
+        @apply text-h3size leading-h3height font-semibold
+    }
+    h6{
+        @apply text-2xl leading-9 
+    }
+}
+
+@layer components{
+    .containerb{
+        @apply w-full max-w-base mx-auto px-5
+    }
+    .containerc{
+        @apply w-full max-w-[840px] mx-auto px-5
+    }
+    .navlink{
+        @apply text-base leading-7 font-medium text-[#BBBBCB]
+    }
+    .navlink-active{
+        @apply text-white
+    }
+    .licontainer{
+        @apply w-full max-w-[623px]
+    }
+}
